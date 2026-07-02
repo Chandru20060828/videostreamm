@@ -1,0 +1,12 @@
+{
+  "name": "videoplatform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "setup": "npm run install:all && echo '\n✅ Setup complete! Fill in backend/.env and frontend/.env then run start:backend and start:frontend'"
+  }
+}
